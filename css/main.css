@@ -1,0 +1,89 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	font-family: 'Roboto', sans-serif;
+}
+.title{
+	font-family: 'Rokkitt', serif;
+	width: 100%;
+}	
+.welcome{
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.flex-content{
+	display: flex;
+	margin-top: 5%
+}
+.coder{
+	width: 40%;
+	height: 60vh;
+	background: url(https://media.giphy.com/media/CaiVJuZGvR8HK/giphy.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.play{
+	width: 60%;
+	height: 60vh;
+	background: #333333;
+	display: flex;
+}
+#point{
+	font-size: 2em;
+	color: black;
+	position: absolute;
+	right: 12%;
+	top: 13%;
+}
+#sede{
+	margin-top: 2%;
+}
+.content-play{
+	width: 80%;
+	margin-top: 25%;
+	margin-left: 15%;
+	font-size: 1.5em;
+	color: white;
+}
+hr{
+	width: 4%;
+	background: black;
+	height: 5px;
+	border: none;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+section{
+	margin: 0 auto;
+}
+select{
+	width: 300px;
+	height: 30px;
+	background: #ccc;
+	outline: none;
+}
+input[type="text"]{
+	width: 80%;
+	height: 40px;
+	outline: none;
+	border: none;
+	margin-top: 1%;
+	padding-left: 2%;
+}
+button{
+	margin-top: 3%;
+	cursor: pointer;
+	padding: 15px;
+	border: none;
+	background: #F9A91A;
+	color: white;
+}
